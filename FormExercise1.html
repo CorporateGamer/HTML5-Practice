@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Element</title>
+</head>
+<body>
+    <h3><center>Customer registration Form</center></h3> <br><br>
+    <center><form action="" name="custForm">
+        <label for="userName">UserName :</label>
+        <input type="text" name="userName" id="userName"><br><br>
+        <label for="password">Password :</label>
+        <input type="password" name="password" id="password" size="30" autocomplete="off" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"><br><br>
+        <label for="email">Email :</label>
+        <input type="email" name="email" id="email"><br><br>
+        <label for="gender">Gender :</label>
+        <input type="radio" name="gender" id="Male" value="Male">Male
+        <input type="radio" name="gender" id="Female" value="Female">Female
+        <input type="radio" name="gender" id="other" value="other">Other <br><br>
+        <label for="Age">Age (Yrs)	:</label>
+        <input type="number" name="age" id="age" min="12" max="60" required><br><br>
+        <label for="address">Address :</label>
+        <textarea name="address" id="address" rows="4" cols="20" maxlength="100"></textarea> <br><br>
+        <label for="Company website">Company Website :</label>
+        <input type="url" name="company website" id="company website" pattern="https://*" required><br><br>
+        <label for="Country">Country :</label>
+        <select name="conuntry" id="country">
+            <option value="India">India</option>
+            <option value="United states">United states</option>
+            <option value="Germany">Germany</option>
+            <option value="Japan">Japan</option>
+        </select><br><br>
+        <label for="DateOfJourney">DateOfJourney :</label>
+        <input type="date" name="DateOfJourney" id="DateOfJourney"><br><br>
+        <input type="button" value="Submit">
+        <input type="button" value="Reset"><br><br>
+
+
+    </form></center>
+</body>
+</html>

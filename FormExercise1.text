@@ -1,0 +1,24 @@
+Instructions for all Form Exercises
+Create the .html file using VS Code and code for the requirements or
+Modify the given code according to the requirements
+Run the .html file using the Live Server
+Problem Statement:
+
+     Modify the given customer registration form that accepts inputs for the following fields.
+
+Fields	            Description
+
+User Name-->	Customer's name. Focus should be placed here on page; must contain only alphabets; can span max upto 15 alphabets
+Password--> 	Required data; contains alphanumeric character starting and ending with a digit. Can span between 8 to 12 characters.
+Email-->    	Email Validations;
+Gender-->   	Use radio buttons to choose only one of the following - Male, Female, Other.
+Age-->      	Customer's age. Min value is 12 and max 60.
+Address-->  	Use text area with 4 rows and 20 columns; max span 100 characters.
+Company website.-->	URL validations
+Choose country	Select from a dropdown list --> India, United States, Germany, Japan
+Different Input fields in customer registration form.
+     Steps to follow:
+
+Create two buttons - one to submit the form and one to reset the form.
+Run the code using live server and compare the output with given sample output.
+
