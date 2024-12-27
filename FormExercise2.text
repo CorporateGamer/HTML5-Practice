@@ -1,0 +1,10 @@
+Modify the given registration form with the name "DLregForm", for applying for a driver's license. The form must contain the following fields with the mentioned validations:
+
+Fields	        Description
+Name	        Applicant's name. Required data; must contain only alphabets
+Age	            Applicant's age, Required data; contains only digits.
+Address	        Applicant's address. Required data; can span up to max 30 characters.
+Contact no.	    Applicant's phone number. Optional data; if provided must contain only numbers; min and max length is 10 digits.
+
+Required form field in driver's license form.
+     Add a checkbox after the above fields for "I own an expired driver's license."
